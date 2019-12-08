@@ -8,8 +8,8 @@ pygame.display.set_caption("My first game")
 x = 50
 y = 50
 width = 40
-height = 60
-vel = 5
+height = 40
+vel = 10
 
 
 run = True
@@ -32,7 +32,7 @@ while run:
         y += vel
     
 
-    pygame.draw.rect(win, (255, 0, 0), (x, y, width, height))
+    pygame.draw.rect(win, (255, 255, 0), (x, y, width, height))
     pygame.display.update()
 
 
