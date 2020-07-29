@@ -4,3 +4,7 @@
 
 # The variables
  x, y, width, height, vel
+ 
+ # Warning :warning:
+ 
+ THIS IS ONLY A TEST FOR PYGAME LIBRARY :warning:
